@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import headerPic from '../static/black.jpg';
+
 export const HeaderWrapper = styled.div`
 position: relative;
 height:500px;
@@ -38,14 +39,28 @@ div{
     }
 }
 `;
-export const ListWrapper=styled.div`
+export const ListWrapper = styled.div`
 padding:0 50px;
 `;
 
 export const ListItem = styled.div`
+a:link,a:visited,a:hover,a:active{
+    color:white;
+    text-decoration:none;
+}
 position:relative;
 padding:40px 50px;
-background-color:red;
+.title{
+    font-size:30px;
+    line-height:60px;
+    color:#222;
+}
+.desc{
+    line-height:30px;
+    font-size:20px;
+    color:#000;
+}
+/* background-color:red; */
 `
 
 

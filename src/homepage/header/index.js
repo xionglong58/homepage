@@ -1,8 +1,9 @@
 import React, { PureComponent, Fragment } from 'react';
 import { HeaderWrapper, HeaderItem } from '../style';
+
 import List from '../pages/index';
 class Header extends PureComponent {
-    state = {}
+
     render() {
         return (
             <Fragment>
@@ -17,7 +18,7 @@ class Header extends PureComponent {
                         </div>
                     </HeaderItem>
                 </HeaderWrapper>
-                <List/>
+                <List />
             </Fragment>);
     }
 }
