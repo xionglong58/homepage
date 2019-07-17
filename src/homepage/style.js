@@ -10,11 +10,21 @@ overflow:hidden;
 
 export const HeaderItem = styled.div`
 position:relative;
-width:50%;
+/* width:50%; */
 height:100%;
 color:white;
+
 div{
     position:absolute;  
+}
+.resume{
+    right:20%;
+    top:35%;
+    span{
+        font-size:100px;
+        cursor:pointer;
+    }
+    
 }
 .author{
     left:10%;
@@ -54,7 +64,14 @@ padding:40px 50px;
     font-size:30px;
     line-height:60px;
     color:#222;
+    .detail{
+    color:#999;
+    font-size:20px;
+    line-height:60px;
+    padding:0 10px;
 }
+}
+
 .desc{
     line-height:30px;
     font-size:20px;

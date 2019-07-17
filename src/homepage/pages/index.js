@@ -23,12 +23,11 @@ class List extends Component {
                 {this.state.projectInfo.map((item) => {
                     return (
                         <ListItem key="item.projectNam">
-                            <a href="https://xionglong58.github.io/jianshu/"><h3 className="title">{item.projectName}</h3></a>
+                            <a href={item.url}><h3 className="title">{item.projectName}<span className="iconfont detail" >&#xe979;</span></h3></a>
                             <p className="desc">{item.projectDesc}</p>
                         </ListItem>)
                 })}
             </ListWrapper>
-
         );
     }
 }

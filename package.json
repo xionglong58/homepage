@@ -2,7 +2,7 @@
   "name": "homepage",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://xionglong58.github.io/Myhonepage",
+  "homepage": "https://xionglong58.github.io/Myhomepage",
   "dependencies": {
     "antd": "^3.20.3",
     "axios": "^0.19.0",
@@ -10,15 +10,15 @@
     "react-dom": "^16.8.6",
     "react-router-dom": "^5.0.1",
     "react-scripts": "3.0.1",
-    "styled-components": "^4.3.2",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "styled-components": "^4.3.2"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
