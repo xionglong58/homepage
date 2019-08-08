@@ -3,7 +3,11 @@ import axios from 'axios';
 import { ListItem, ListWrapper } from '../style';
 class List extends Component {
     state = {
-        projectInfo: [{}]
+        projectInfo: [{
+            url:"https://xionglong58.github.io/jianshu/",
+            projectName:'简书',
+            projectDesc:'使用'
+        }]
     }
     componentDidMount() {
         axios.get("https://www.fastmock.site/mock/aa0d11348baa9f557d321b36fc29d422/homepahe/home/api").then(
